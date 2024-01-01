@@ -1,0 +1,53 @@
+.movie-image {
+    width: 15vw;
+    height: 20vw;
+    padding-right: 2em;
+}
+
+.movie-ac {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    padding-right: 0;
+    margin-right: 5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    transition: background-color 1s ease-out;
+}
+
+.movie-ac:active {
+    background-color: #6D6D74;
+}
+
+.movie-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-left: 5px solid rgba(0, 0, 0, 0.1);
+    padding: 0 1em;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.movie-add-title {
+    color : #707078;
+    font-weight: bold;
+    font-size: 3vw;
+    padding: 1em 0;
+}
+
+.movie-add-year {
+    color: #8B8B92;
+    font-size: 2vw;
+    padding-bottom: 1em;
+}
+
+.movie-add-type {
+    color: #6D6D74;
+    font-size: 2vw;
+    padding-bottom: 1em;
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FAF0E6;
+}
+
+.headd {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #8AA1B1;
+    padding: 1vw 0.5vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.25vw;
+    font-family: 'Black Ops One';
+    letter-spacing: 0.2em;
+    height: 96px;
+}
+
+.header #app-title {
+    /*background: -webkit-linear-gradient(45deg, #6B8E23, #556B2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #DAE0E7;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E6EAEF;
+}
+
+.btn {
+    width: 7em;
+    height: 2.5em;
+    margin: auto 0.75em;
+    border: none;
+    transition: background-color 1s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-header {
+    color: #50647C;
+    text-decoration: none;
+}
+
+.btn-header:hover {
+    color: #5F7895;
+}
+
+#mainPageButtons span {
+    font-size: 1.25rem;
+}
